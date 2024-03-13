@@ -74,6 +74,8 @@ Database: This is the storage layer where data related to the elevator system is
 The API endpoint for elevators is:
 
 [http://127.0.0.1:8001/api/v1/elevators/](http://127.0.0.1:8001/api/v1/elevators/)
+
+
 [http://127.0.0.1:8001/api/v1/requests/](http://127.0.0.1:8001/api/v1/requests/)
 
 This endpoint allows you to interact with the elevators in the system.

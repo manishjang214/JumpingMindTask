@@ -92,7 +92,7 @@ DATABASES = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'elevatorsystem',
+        'NAME': BASE_DIR / 'db.postgresql',
         'USER': 'root',
         'PASSWORD': 'root',
         'HOST': 'localhost',  # Or your database host

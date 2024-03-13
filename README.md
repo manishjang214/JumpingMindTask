@@ -4,7 +4,7 @@ JumpingMinds Backend Problem Statement  In this challenge, you are asked to impl
 
 ## Problem Statement
 
-In this challenge, you are asked to imfile:///home/manish/Pictures/Screenshots/Screenshot%20from%202024-03-13%2018-35-28.png
+In this challenge.
 plement the business logic for a simplified elevator model in Python. We'll ignore a lot of what goes into a real-world elevator, like physics, maintenance overrides, and optimizations for traffic patterns. All you are asked to do is to decide whether the elevator should go up, go down, or stop.
 
 ### Table of Contents:

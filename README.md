@@ -48,3 +48,23 @@ Implement the business logic for a simplified elevator model in Python using Dja
 
 - Submission should include the Python code implemented using Django, including Models, ViewSets, Serializers, etc.
 - Judging criteria may include the correctness of the implemented functionalities, code quality, adherence to Django best practices, and efficiency of the elevator system.
+
+Create a simple diagram representing the solution to the elevator system problem statement using Django.
++-------------------------------------------+
+|             Elevator System               |
++-------------------------------------------+
+|               /            \              |
+|    Elevator Management    API Endpoints   |
+|               \            /              |
++-------------------------------------------+
+|               Models                      |
++-------------------------------------------+
+|               Business Logic              |
++-------------------------------------------+
+|               Database                    |
++-------------------------------------------+
+
+Business Logic: This layer contains the core business logic of the elevator system. It includes functions and methods for elevator operations like moving up and down, opening and closing doors, determining the next destination floor, etc.
+
+Database: This is the storage layer where data related to the elevator system is stored. It can be a PostgreSQL database as mentioned in the problem statement.
+

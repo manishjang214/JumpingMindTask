@@ -89,6 +89,17 @@ DATABASES = {
     }
 }
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'elevatorsystem',
+        'USER': 'root',
+        'PASSWORD': 'root',
+        'HOST': 'localhost',  # Or your database host
+        'PORT': '5432',       # Or your database port
+    }
+}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators

@@ -44,16 +44,16 @@ Implement the business logic for a simplified elevator model in Python using Dja
 1. API to receive user requests for elevator movement.
 2. API to query the current status of elevators.
 
-### F. Submission Process and Judging Criteria:
 
-- Submission should include the Python code implemented using Django, including Models, ViewSets, Serializers, etc.
+
+- Should include the Python code implemented using Django, including Models, ViewSets, Serializers, etc.
 - Judging criteria may include the correctness of the implemented functionalities, code quality, adherence to Django best practices, and efficiency of the elevator system.
 
 Create a simple diagram representing the solution to the elevator system problem statement using Django.
-+-------------------------------------------+
-|             Elevator System               |
-+-------------------------------------------+
-|               /            \              |
++-------------------------------------------+ 
+|             Elevator System               | 
++-------------------------------------------+ 
+|               /            \              | 
 |    Elevator Management    API Endpoints   |
 |               \            /              |
 +-------------------------------------------+

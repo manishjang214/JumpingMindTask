@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'auditlog',
     'rest_framework.authtoken',
+    
 ]
 
 MIDDLEWARE = [
@@ -57,6 +58,7 @@ ROOT_URLCONF = 'elevatorsystem.urls'
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [],
+
 }
 
 
@@ -89,16 +91,16 @@ DATABASES = {
     }
 }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': BASE_DIR / 'db.postgresql',
-        'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': 'localhost',  # Or your database host
-        'PORT': '5432',       # Or your database port
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': BASE_DIR / 'db.postgresql',
+#         'USER': 'root',
+#         'PASSWORD': 'root',
+#         'HOST': 'localhost',  # Or your database host
+#         'PORT': '5432',       # Or your database port
+#     }
+# }
 
 
 # Password validation

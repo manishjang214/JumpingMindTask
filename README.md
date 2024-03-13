@@ -68,3 +68,13 @@ Business Logic: This layer contains the core business logic of the elevator syst
 
 Database: This is the storage layer where data related to the elevator system is stored. It can be a PostgreSQL database as mentioned in the problem statement.
 
+
+## API Endpoint
+
+The API endpoint for elevators is:
+
+[http://127.0.0.1:8001/api/v1/elevators/](http://127.0.0.1:8001/api/v1/elevators/)
+[http://127.0.0.1:8001/api/v1/requests/](http://127.0.0.1:8001/api/v1/requests/)
+
+This endpoint allows you to interact with the elevators in the system.
+

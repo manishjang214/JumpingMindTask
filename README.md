@@ -51,8 +51,9 @@ You can also update the status of elevator to maintenance as shown below using P
 ![Screenshot from 2024-03-13 18-44-44](https://github.com/manishjang214/JumpingMindTask/assets/144983509/0cf93015-a50b-4eaf-804b-eced4309a922)
 The elevator request can be directly processed (in earlier case) or queued, depending upon the availability of elevator.
 ![Screenshot from 2024-03-13 18-35-28](https://github.com/manishjang214/JumpingMindTask/assets/144983509/370274e9-af7f-41a8-9141-40a300cc968a)
-You can create multiple elevator systems specifying the name, number of elevators & floors.
+You can create multiple elevator systems specifying the name, number of elevators & floors Getting Data.
 ![Screenshot from 2024-03-13 17-53-49](https://github.com/manishjang214/JumpingMindTask/assets/144983509/c5bce4d7-e732-44e6-9d83-1685f9e750e8)
+You can create multiple elevator systems specifying the name, number of elevators & floors POST Data.
 ![Screenshot from 2024-03-13 17-52-32](https://github.com/manishjang214/JumpingMindTask/assets/144983509/319bf0cc-3880-4815-9604-042472994b3b)
 
 

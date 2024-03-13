@@ -1,0 +1,2 @@
+This command used for the create a Docker container --->  docker build -t jumpingmind .
+This command used for the Build and up The Docker container ---> docker-compose up --build

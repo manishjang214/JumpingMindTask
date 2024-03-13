@@ -1,0 +1,5 @@
+Django==4.0.4
+djangorestframework==3.14.0
+djangorestframework-simplejwt
+django-auditlog
+requests

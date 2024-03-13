@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  watch:
+    build: .
+    volumes:
+      - .:/watch
+    command: >
+      sh -c "ls -d /watch/**/* | entr -r docker-compose up --build"
+
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8001
+    container_name: JumpingMindTask
+    volumes:
+      - .:/JumpingMindTask
+    ports:
+      - "8001:8001"

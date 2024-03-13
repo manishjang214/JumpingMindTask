@@ -48,7 +48,8 @@ Implement the business logic for a simplified elevator model in Python using Dja
 ## Status of elevator in elevator system.
 Get all the details related to elevator using elevator_id such as moving direction, door status, elevator status etc.
 You can also update the status of elevator to maintenance as shown below using PATCH request.
-<img width="1295" alt="8" src="https://github.com/dhruv-goyal-10/jumping-minds-task/assets/91484101/7a72cfde-72b3-4789-b098-78967cd51a51">
+![Screenshot from 2024-03-13 18-44-44](https://github.com/manishjang214/JumpingMindTask/assets/144983509/2adeccdf-88df-4c3b-a4fd-c9b85690d8ee)
+
 
 
 - Should include the Python code implemented using Django, including Models, ViewSets, Serializers, etc.

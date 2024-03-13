@@ -68,3 +68,80 @@ Business Logic: This layer contains the core business logic of the elevator syst
 
 Database: This is the storage layer where data related to the elevator system is stored. It can be a PostgreSQL database as mentioned in the problem statement.
 
+
+## API Endpoint
+
+The API endpoint for elevators is:
+Checking the elevator
+[http://127.0.0.1:8001/api/v1/elevators/](http://127.0.0.1:8001/api/v1/elevators/)
+
+output is EndPoint
+[
+    {
+        "id": 1,
+        "status": "STOPPED",
+        "current_floor": 0
+    },
+    {
+        "id": 2,
+        "status": "STOPPED",
+        "current_floor": 0
+    },
+    {
+        "id": 3,
+        "status": "STOPPED",
+        "current_floor": 0
+    },
+    {
+        "id": 4,
+        "status": "UP",
+        "current_floor": 1
+    },
+    {
+        "id": 5,
+        "status": "OPEN",
+        "current_floor": 1
+    },
+    {
+        "id": 6,
+        "status": "CLOSED",
+        "current_floor": 1
+    },
+    {
+        "id": 7,
+        "status": "UP",
+        "current_floor": 3
+    },
+    {
+        "id": 8,
+        "status": "OPEN",
+        "current_floor": 3
+    },
+    {
+        "id": 9,
+        "status": "CLOSED",
+        "current_floor": 3
+    },
+    {
+        "id": 10,
+        "status": "DOWN",
+        "current_floor": 1
+    }
+]
+
+Checking the requests
+[http://127.0.0.1:8001/api/v1/requests/](http://127.0.0.1:8001/api/v1/requests/)
+
+Output of this endpoint
+[
+    {
+        "id": 1,
+        "direction": "UP",
+        "target_floor": 1,
+        "processed": true,
+        "elevator": 1
+    }
+]
+
+This endpoint allows you to interact with the elevators in the system.
+

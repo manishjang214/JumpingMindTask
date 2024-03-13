@@ -14,11 +14,8 @@ router = SimpleRouter()
 router.register(r"elevator-system", ElevatorSystemViewSet, basename="elevator-system")
 router.register(r"elevator", ElevatorViewSet, basename="elevator")
 router.register(r"elevator-request", ElevatorRequestViewSet, basename="elevator-request")
-
-# Define nested routes for ElevatorSystemViewSet
-nested_router = SimpleRouter()
-nested_router.register(r'elevator', ElevatorViewSet, basename='elevator')
-nested_router.register(r'request', ElevatorRequestViewSet, basename='request')
+router.register(r'elevator', ElevatorViewSet, basename='elevator')
+router.register(r'request', ElevatorRequestViewSet, basename='request')
 
 # Define urlpatterns
 urlpatterns = [
@@ -32,5 +29,5 @@ urlpatterns += router.urls
 # Include nested_router.urls under a nested path
 urlpatterns += [
     path('api/', include(router.urls)),
-    path('api/<int:elevator_system_pk>/', include(nested_router.urls)),
+    path('api/<int:elevator_system_pk>/', include(router.urls)),
 ]

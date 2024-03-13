@@ -121,80 +121,8 @@ Replace the placeholder text with your actual information. You can also add more
 
 Make sure to include detailed and clear instructions so that users can easily understand and interact with your backend service. Additionally, providing a well-documented README helps users understand the purpose and functionality of your service.
 
+This is my All api request path
 
-## API Endpoint
-
-The API endpoint for elevators is:
-Checking the elevator
-[http://127.0.0.1:8001/api/v1/elevators/](http://127.0.0.1:8001/api/v1/elevators/)
-
-output is EndPoint
-[
-    {
-        "id": 1,
-        "status": "STOPPED",
-        "current_floor": 0
-    },
-    {
-        "id": 2,
-        "status": "STOPPED",
-        "current_floor": 0
-    },
-    {
-        "id": 3,
-        "status": "STOPPED",
-        "current_floor": 0
-    },
-    {
-        "id": 4,
-        "status": "UP",
-        "current_floor": 1
-    },
-    {
-        "id": 5,
-        "status": "OPEN",
-        "current_floor": 1
-    },
-    {
-        "id": 6,
-        "status": "CLOSED",
-        "current_floor": 1
-    },
-    {
-        "id": 7,
-        "status": "UP",
-        "current_floor": 3
-    },
-    {
-        "id": 8,
-        "status": "OPEN",
-        "current_floor": 3
-    },
-    {
-        "id": 9,
-        "status": "CLOSED",
-        "current_floor": 3
-    },
-    {
-        "id": 10,
-        "status": "DOWN",
-        "current_floor": 1
-    }
-]
-
-Checking the requests
-[http://127.0.0.1:8001/api/v1/requests/](http://127.0.0.1:8001/api/v1/requests/)
-
-Output of this endpoint
-[
-    {
-        "id": 1,
-        "direction": "UP",
-        "target_floor": 1,
-        "processed": true,
-        "elevator": 1
-    }
-]
-
-This endpoint allows you to interact with the elevators in the system.
-
+--http://127.0.0.1:8001/api/v1/elevator-system/
+--http://127.0.0.1:8001/api/v1/elevator-request/
+-- http://127.0.0.1:8001/api/v1/elevator/c5328171-aa42-44a5-b04f-b2cc8c29049d/

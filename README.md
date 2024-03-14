@@ -45,6 +45,8 @@ Implement the business logic for a simplified elevator model in Python using Dja
 1. API to receive user requests for elevator movement.
 2. API to query the current status of elevators.
 
+**Deployed Site Link -- https://app.netlify.com/sites/elevator-system1/deploys/65f26b42a7ffb36910c2eee8**
+
 ## Status of elevator in elevator system.
 Get all the details related to elevator using elevator_id such as moving direction, door status, elevator status etc.
 You can also update the status of elevator to maintenance as shown below using PATCH request.
